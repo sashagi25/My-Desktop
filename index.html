@@ -50,10 +50,11 @@ var yyyy = today.getFullYear();
 if(dd<10) dd='0'+dd;
 if(mm<10) mm='0'+mm;
 $("#date").html(mm+sp+dd+sp+yyyy);
-</script>
-</html>
 
 $("#saveNoteBtn").click(function(){
  var currentNotes = $("#note-area").val();
  localStorage.setItem("notes", currentNotes);
 });
+</script>
+</html>
+
